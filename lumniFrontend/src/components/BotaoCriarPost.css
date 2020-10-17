@@ -1,0 +1,33 @@
+.cancel{
+    color: rgba(63, 63, 63, 0.767);
+    background: none;
+}
+.cancel a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.next{
+    background-color:rgb(116, 27, 103);
+    color: white;
+    padding: 10pt 13pt;
+    border-radius: 8pt;
+}
+.next a{
+    text-decoration: none;
+    color: white;
+}
+
+.ButtonsContainer button{
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+
+.ButtonsContainer{
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    border-radius: 0 0 15pt 15pt;
+    padding: 20px;
+}

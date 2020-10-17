@@ -1,0 +1,125 @@
+.PostagemContainer{
+    padding: 8em 14em;
+    text-align: left;
+    text-align: justify;
+    background-image: url("../graphic/background/wbforum.jpg");
+    background-size: cover;
+    background-position: top left;
+}
+.conteudoPost{
+    position: relative;
+}
+
+.conteudoPost p{
+    font-family: 'Frutiger 45 Light';
+}
+.conteudoPost strong{
+    font-family: 'Frutiger Bold';
+}
+.conteudoPost h1{
+    font-family: 'Frutiger Bold';
+}
+.Category{
+    background-color: rgb(63,22,91);
+    color: white;
+    font-weight: bold;
+    padding: 10pt 15pt;
+    border: none;
+    border-radius: 50pt;
+    position: absolute;
+    top: 0;
+    right: 0;
+    outline: none;
+    font-size: 13pt;
+    cursor: pointer;
+}
+.conteudoPost legend strong{
+    cursor: pointer;
+}
+.Options{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+}
+.Options li{
+    color: rgb(0, 0, 0);
+}
+.Options li:hover{
+    color: rgb(63, 22, 91);
+}
+.Options p{
+    font-size: 12pt;
+    cursor: pointer;
+}
+.Options i{
+    font-size: 20pt;
+    position: relative;
+    top: 5pt;
+    margin: auto 5pt;
+    cursor: pointer;
+}
+.PostagemContainer ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: end;
+}
+.PostagemContainer li{
+    margin: auto 10pt;
+}
+
+.ContentComment input{
+    border:none;
+    padding: 10pt;
+    border-radius: 15pt 0 0 15pt;
+    width: 50%;
+    outline: none;
+}
+
+.ContentComment button{
+    padding: 10pt 15pt;
+    border:none;
+    background-color:  rgb(63, 22, 91);
+    color: white;
+    border-radius: 0 15pt 15pt 0;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+}
+
+.linkPostEvent{
+    text-decoration: none;
+    color:rgb(119, 41, 172);
+}
+
+.linkPostEvent:hover{
+    color: rgb(171, 70, 238);
+}
+.linkPostEvent:visited{
+    color: #3f165b;
+}
+.linkPostEvent:active{
+    color: rgb(16, 18, 64);
+}
+.conteudoComentarios{
+    width: 60%;
+    padding: 0;
+    margin: 0;
+
+}
+.conteudoComentarios p{
+    padding: 0;
+    margin: 0;
+    
+}
+.conteudoComentarios p strong{
+    cursor: pointer;
+}
+.PostagemContainer p{
+    line-height: 180%;
+}
+
+.invisible{
+    visibility: hidden;
+}

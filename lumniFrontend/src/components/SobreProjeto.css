@@ -1,0 +1,32 @@
+.SobreProjeto{
+    background-image: url("../graphic//background//forum.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    padding: 10em 14em;
+}
+.SobreProjeto h1{
+    font-size: 3em;
+    color: white;
+}
+
+.Conteudo{
+    background-color: white;
+    padding: 4em 14em;
+    font-family: 'Frutiger 45 Light';
+    
+}
+.Conteudo p{
+    font-size: 16pt;
+    text-align: justify;
+    text-indent: 20pt;
+    line-height: 160%;
+}
+
+.Conteudo strong{
+    font-family: 'Frutiger Bold';
+}
+
+.Conteudo a{
+    text-decoration: none;
+}

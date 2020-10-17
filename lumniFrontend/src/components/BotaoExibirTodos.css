@@ -1,0 +1,29 @@
+.verMais{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.verMais a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    background-color: rgb(116, 27, 103);
+    color: white;
+    padding: 8pt 15pt;
+    border-radius: 10pt;
+    font-family: "Frutiger Bold";
+}
+.verMais a:hover{
+    color: rgb(255, 255, 255);
+}
+.verMais p{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-weight: bolder;
+    
+}

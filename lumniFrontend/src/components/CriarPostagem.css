@@ -1,0 +1,66 @@
+.containerForm{
+    background-image: url("../graphic/background/wbforum.jpg");
+    background-size: cover;
+    background-position: top center;
+    padding: 8em 12em;
+    /* --ck-border-radius: 15pt 15pt 0 0;
+    --ck-color-toolbar-background: #ffffff;
+    --ck-color-base-border: #ffffff;
+    --ck-color-toolbar-border: none;
+    --ck-custom-border: hsl(300, 1%, 22%); */
+
+}
+.containerForm h2{
+    font-size: 3em;
+    padding: 0;
+    margin: 0;
+}
+.containerForm form{
+    padding: 0 6em;
+    display: grid;
+}
+
+.containerForm label a:hover{
+    color:  rgb(116, 27, 103);
+}
+
+.containerForm label a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.containerForm input,select{
+    border: none;
+    font-family: 'Frutiger 45 Light';
+    outline: 0;
+    padding: 15pt;
+    border-radius: 10pt;
+    font-size: 12pt;
+    margin: 10pt;
+}
+
+
+.containerForm button{
+    border: none;
+}
+
+.EditorPost{
+    padding: 10pt;
+}
+
+.containerForm textarea{
+    resize: none;
+    border: none;
+    border-radius: 15pt 15pt 0 0;
+    outline: none;
+    margin: -5pt 0;
+    padding: 15pt;
+    font-family: 'Frutiger 45 Light';
+    font-size: 12pt;
+    width: 95.5%;
+}

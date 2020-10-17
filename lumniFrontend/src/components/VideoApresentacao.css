@@ -1,0 +1,54 @@
+nav{
+    z-index: 1000;
+}
+.container-apresentacao{
+    padding: 2em 0 0 0;
+}
+
+.background-video{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+.background-video video{
+    width: 100%;
+    position: relative;
+    top: -8em;
+}
+
+.info-presentation{
+    margin-top: 2em;
+    padding: 15em;
+    background-color: rgba(114, 32, 115, 0.768);
+    color: white;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.info-presentation h2{
+    font-family: 'Frutiger 45 Light';
+    font-size: 25pt;
+    margin: 0 0 0 3pt;
+    padding: 0;
+    line-height: 0;
+    text-align: left;
+}
+
+.info-presentation h1{
+    font-family: 'Frutiger Bold';
+    font-size: 68pt;
+    margin: 0;
+    padding: 0;
+}
+.info-presentation h3{
+    font-family: 'Frutiger 45 Light';
+    font-size: 20pt;
+    line-height: 0;
+    margin: 0 3pt 0 0;
+    padding: 0;
+    text-align: right;
+}

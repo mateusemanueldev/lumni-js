@@ -1,0 +1,19 @@
+.loading i{
+    font-size: 35pt;
+    color: rgb(63, 22, 91);
+    
+}
+.loading{
+    animation-name: rodar;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rodar{
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+}
